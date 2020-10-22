@@ -1,0 +1,476 @@
+body{
+    margin:0;
+    background:#fff;
+    animation:body 2s 1;
+}
+@keyframes body{
+	0% {
+        opacity:0;
+    }
+	85%{
+    }
+}
+header{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.5), 
+        rgba(50, 50, 50, 0.5)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_section_presente.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    height:20vw;
+    border-radius:0 0 20vw 0vw;
+    box-shadow:2vw 0vw 0vw 0vw #f5b500;
+    width:auto;
+}
+.qui{
+    margin:0vw 50vw auto 0vw;
+    padding:1vw;
+    color:rgb(255,255,255);
+    text-shadow: 2vw 2vw 0vw rgba(30,30,30,.3);
+    font-size:5vw;
+    font-family:Trebuchet MS;
+}
+.icon_id9{
+    position:absolute;
+    width:7vw;
+    height:7vw;
+    object-fit:cover;
+    margin-left:35vw;
+    margin-top:6vw;
+    border-radius:10vw;
+    background:#222222;
+    border:0.5vw solid #f5b500;
+    animation:id9 15s 1;
+}
+.anime-menu{
+    position:fixed;
+    top:0;
+    height:auto;
+    width:100%;
+    z-index:500;
+}
+.anime-menu:hover {transition: all .3s 0s;}
+.anime-menu:hover nav{
+    transition: all .3s 0s;
+    margin-top:0em;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    background:rgb(30,30,30);
+    height:auto;
+    width:100%;
+    opacity:0.9;
+    margin-top:-4vw;
+    transition: all .3s 0s;
+}
+
+.barre{
+    top:0; 
+    width:2vw;
+    transition: all .3s 0s;
+}
+.anime-menu:hover .barre{
+    transition: all .3s 0s;
+    opacity:0;
+}
+ul.menu{
+    display: table;
+    margin:0 auto 0 0;
+	padding:0;
+	width:40vw;
+}
+ul.menu li.menu{
+    display: table-cell;
+    text-decoration:none;
+    list-style:none;
+}
+ul.menu li.menu a{
+    font-family: Delimax;
+	font-size:1vw;
+	margin-top:0em;
+	padding:2em;
+	display: block;
+	position: relative;
+	text-align: center; 
+	text-decoration: none;
+	transition: padding .3s;
+	transition: all .3s .1s;
+	transition: padding .3s, background .3s;
+	padding: 1px 1px 1px 1px;
+    color: rgb(255,255,255);
+	margin:0% 0% 0% 0%;
+	border-radius: 0px;
+}
+p.d{
+    font-family: sans-serif;
+	font-size:1vw;   
+}
+ul.menu li.menu a:hover, 
+ul.menu li.menu a:focus{
+	transition: all .3s 0s;
+	padding: 1px 1px 1px 1px;
+	color: rgb(30,30,30);
+    background:#f5b500;
+}
+.sect_2{
+    width:auto;
+    height:auto;
+}
+.texteC{
+    color:rgba(200,200,200,.1);
+    z-index:-50;
+    position:absolute;
+    margin:1vw;
+    left:auto;
+    right:0;
+    font-size:15vw;
+    font-family:Trebuchet MS;
+}
+.section_block:nth-of-type(1){
+    margin-right:30vw;
+}
+.section_block:nth-of-type(2){
+    margin-right:40vw;
+}
+.section_block:nth-of-type(3){
+    margin-right:50vw;
+}
+.date{
+    border-radius:10vw;
+    width:auto;
+    font-size:1.2vw;
+    padding:2vw;
+    width:5vw;
+    height:5vw;
+    margin:2vw;
+    background:#f5b500;
+    color:#fff;
+    border:0.8vw double #fff;
+    font-family:Trebuchet MS;
+}
+.text15{
+    margin-top:-11.7vw;
+    left:auto;
+    right:20vw;
+    position:absolute;
+    text-align:center;
+    font-size:2.5vw;
+    color:#555;
+    height:auto;
+    width:25vw;
+    border-left:0.2vw solid #555;
+    font-family:Trebuchet MS;
+}
+.text16{
+    margin-top:-8vw;
+    left:auto;
+    right:25vw;
+    position:absolute;
+    text-align:center;
+    font-size:2.5vw;
+    color:#555;
+    height:auto;
+    width:25vw;
+    border-bottom:0.2vw solid #5552;
+    font-family:Trebuchet MS;
+}
+.text17{
+    margin-top:-11.7vw;
+    left:auto;
+    right:30vw;
+    position:absolute;
+    text-align:center;
+    font-size:2.5vw;
+    color:#555;
+    height:auto;
+    width:25vw;
+    border-left:0.2vw solid #555;
+    font-family:Trebuchet MS;
+}
+.bar{
+    left:0;
+    right:0;
+    width:35%;
+    z-index:-2;
+    height:1vw; 
+    background:#222;
+    margin-top:-9vw;
+    position:absolute;
+}
+.bar2{
+    left:0;
+    right:0;
+    width:30%;
+    z-index:-2;
+    height:1vw; 
+    background:#222;
+    margin-top:-9vw;
+    position:absolute;
+}
+.bar3{
+    left:0;
+    right:0;
+    width:25%;
+    z-index:-2;
+    height:1vw; 
+    background:#222;
+    margin-top:-9vw;
+    position:absolute;
+}
+.sect_3{
+    width:auto;
+    height:auto;
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.8), 
+        rgba(50, 50, 50, 0.8)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_lentreprise.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    padding:4vw;
+    border-top:1vw solid #222;
+}
+.section_block1{
+    padding:3vw;
+    font-size:2vw;
+    font-family:Trebuchet MS;
+    color:white;
+    width:20vw;
+    height:10vw;
+    text-align:left;
+    border-left:.5vw solid #f5b500;
+    vertical-align:top;
+    display:inline-block;
+}
+.section_block1:nth-of-type(1){
+    
+}
+.section_block1:nth-of-type(2){
+    
+}
+.section_block1:nth-of-type(3){
+    
+}
+.text_info{
+    color:#f5b500;
+    position:absolute;
+    margin:auto;
+    font-size:2vw;
+}
+.sect_4{
+    width:auto;
+    height:auto;
+    background:#f5b500;
+    padding:5vw;
+}
+.img{
+    object-fit:cover;
+    width:40vw;
+    height:20vw; 
+}
+.section_block2{
+    vertical-align: top;
+    margin:2.1vw;
+    display:inline-block;
+}
+.section_block2:nth-of-type(1){
+    width:40vw;
+    height:auto;
+}
+.section_block2:nth-of-type(2){
+    width:40vw;
+    height:auto;
+}
+.section_block2:nth-of-type(3){
+    width:40vw;
+    height:auto;
+}
+.section_block2:nth-of-type(4){
+    width:40vw;
+    height:auto;
+}
+.section_block2:nth-of-type(5){
+    width:40vw;
+    height:auto;
+}
+.section_block2:nth-of-type(6){
+    width:40vw;
+    height:auto;
+}
+.ate{
+    color:#fff;
+    font-size:4vw;
+    font-family:Trebuchet MS;
+}
+p.text_atelier{
+    color:#fff;
+    font-size:2vw;
+    font-family:Trebuchet MS;
+}
+.moi{
+       color:#fff;
+    font-size:2vw;
+    font-family:Trebuchet MS; 
+}
+.titre_souti{
+    padding-top:1vw;
+}
+#titreS{
+    border:2px solid #fff;
+    margin:0;
+    font-size:1vw;
+    height:auto;
+    width:10vw;
+    font-family:Trebuchet MS;
+    color:#fff;   
+}
+.ens{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.8), 
+        rgba(50, 50, 50, 0.8)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_reunion.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    border-radius:0vw 0vw 0vw 10vw;
+    height:20vw;
+    width:100%;
+    box-shadow:-2vw 0vw 0vw 0vw #f5b500;
+}
+.ensavoir a{
+    color:rgb(255,255,255);
+    text-decoration:none;
+    
+}
+.ensavoir:hover a{transition: all .3s 0s; color:rgb(40,40,40);}
+.ensavoir:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+}
+.ensavoir{
+    transition: all .3s 0s;
+    cursor:pointer;
+    margin:7vw;
+    font-size:2vw;
+    font-family:Iceland;
+    background:rgb(40,40,40);
+    border:0.1vw solid #f5b500;
+    padding:1vw;
+}
+
+footer{
+    background:rgb(40,40,40);
+    height:auto;
+    width:100%; 
+    padding-bottom:1vw;
+}
+.icon_part{
+    width:4.5vw;
+    margin-top:2vw;
+    opacity:0.5;
+    transition: all .3s 0s;
+    cursor:pointer;
+}
+.icon_part:hover{
+    transition: all .3s 0s;
+	opacity:1;
+}
+.formul{
+    margin-top:4vw;
+    border-top:0.1vw solid rgb(50,50,50);
+    border-bottom:0.1vw solid rgb(50,50,50);
+    height:33vw;
+    width:95%;
+}
+.contact{
+    display:inline-block;
+    vertical-align: top;
+    height:auto;
+    width:45%;
+    margin-top:3vw;
+    margin-right:5vw;
+}
+.titre_contact{
+    font-size:1.58vw;
+    color:#f5b500;
+    font-family:Trebuchet MS;
+    text-align:left;
+    margin:1vw;
+}
+#contactC{
+    font-size:0.8vw;
+    padding:1vw;
+    width:18.1vw;
+    height:2vw;
+    background:rgb(50,50,50);
+    font-family:Trebuchet MS;
+    color:rgba(255,255,255,.5);
+    border:0.1vw solid rgb(40,40,40);
+}
+#contactC2{
+    resize:none;
+    font-size:0.8vw;
+    font-family:Trebuchet MS;
+    padding:1vw;
+    width:38.5vw;
+    height:8vw;
+    background:rgb(50,50,50);
+    color:rgba(255,255,255,.5);
+    border:0.1vw solid rgb(40,40,40);
+}
+.conta{
+    margin-top:1vw;
+    width:auto;
+    height:3vw;
+    transition: all .3s 0s;
+    cursor:pointer;
+    font-size:1.5vw;
+    font-family:Iceland;
+    background:rgb(40,40,40);
+    color:rgb(255,255,255);
+    border:0.1vw solid #f5b500;
+}
+.conta:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+    color:rgb(40,40,40);
+}
+.infomation{
+    margin-top:10vw;
+    display:inline-block;
+    height:auto;
+    width:43vw;
+}
+.coord{
+    display:inline-block;
+    padding:1vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);
+    font-size:1.4vw;
+    width:18vw;
+    text-align:left;
+    border-left:0.1vw solid rgba(200,200,200,.2);
+}
+#titreS{
+    border:1px solid #fff;
+    margin-top:2vw;
+    font-size:1.5vw;
+    height:auto;
+    width:13vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);  
+}
+iframe{
+    height:23vw;
+    width:100%;
+}
+.sending_message{
+    font-family: Helvetica;
+    font-size: 18px;
+}

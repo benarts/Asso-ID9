@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    background:#222222;
+}
+header{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.5), 
+        rgba(50, 50, 50, 0.5)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_section_presente.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    height:20vw;
+    border-radius:0 0 20vw 0vw;
+    box-shadow:2vw 0vw 0vw 0vw #f5b500;
+    width:auto;
+}
+.qui{
+    margin:0vw 50vw auto 0vw;
+    padding:1vw;
+    color:rgb(255,255,255);
+    text-shadow: 2vw 2vw 0vw rgba(30,30,30,.3);
+    font-size:5vw;
+    font-family:Trebuchet MS;
+}
+.anime-menu{
+    position:fixed;
+    top:0;
+    height:auto;
+    width:100%;
+    z-index:500;
+}
+.anime-menu:hover {transition: all .3s 0s;}
+.anime-menu:hover nav{
+    transition: all .3s 0s;
+    margin-top:0em;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    background:rgb(30,30,30);
+    height:auto;
+    width:100%;
+    opacity:0.9;
+    margin-top:-4vw;
+    transition: all .3s 0s;
+}
+
+.barre{
+    top:0; 
+    width:2vw;
+    transition: all .3s 0s;
+}
+.anime-menu:hover .barre{
+    transition: all .3s 0s;
+    opacity:0;
+}
+ul.menu{
+    display: table;
+    margin:0 auto 0 0;
+	padding:0;
+}
+ul.menu li.menu{
+    display: table-cell;
+    text-decoration:none;
+    list-style:none;
+    width: 150px;
+}
+ul.menu li.menu a{
+    font-family: Delimax;
+	font-size:1vw;
+	margin-top:0em;
+	padding:2em;
+	display: block;
+	position: relative;
+	text-align: center; 
+	text-decoration: none;
+	transition: padding .3s;
+	transition: all .3s .1s;
+	transition: padding .3s, background .3s;
+	padding: 1px 1px 1px 1px;
+    color: rgb(255,255,255);
+	margin:0% 0% 0% 0%;
+	border-radius: 0px;
+}
+p.d{
+    font-family: sans-serif;
+	font-size:1vw;   
+}
+ul.menu li.menu a:hover, 
+ul.menu li.menu a:focus{
+	transition: all .3s 0s;
+	padding: 1px 1px 1px 1px;
+	color: rgb(30,30,30);
+    background:#f5b500;
+}
+main{ 
+}
+.titre_souti{
+    padding:1vw;
+}
+#titreS{
+    border:2px solid #fff;
+    margin:0;
+    font-size:1vw;
+    height:auto;
+    width:10vw;
+    font-family:Trebuchet MS;
+    color:#fff;   
+}
+footer{
+    background:#222;
+    height:auto;
+    width:100%;  
+}
+
+#list_texts
+{
+    margin: 0px 56px;
+}
+
+.progress_upload
+{
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.progress_upload_message
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5b500;
+    font-size: 32px;
+    font-family: helvetica;
+}

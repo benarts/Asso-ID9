@@ -1,0 +1,270 @@
+body{
+    margin:0;
+    background: rgb(40, 40, 40);
+    animation:body 2s 1;
+}
+@keyframes body{
+	0% {
+        opacity:0;
+    }
+	85%{
+    }
+}
+header{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.5), 
+        rgba(50, 50, 50, 0.5)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_section_presente.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    height:20vw;
+    border-radius:0 0 20vw 0vw;
+    box-shadow:2vw 0vw 0vw 0vw #f5b500;
+    width:auto;
+}
+.qui{
+    margin: 0;
+    margin-left: -50vw;
+    padding: 0.4vw;
+    color: rgb(255,255,255);
+    text-shadow: 2vw 2vw 0vw rgba(30,30,30,.3);
+    font-size: 5vw;
+    font-family: Trebuchet MS;
+}
+.icon_id9{
+    position:absolute;
+    width:7vw;
+    height:7vw;
+    object-fit:cover;
+    margin-left:35vw;
+    margin-top:6vw;
+    border-radius:10vw;
+    background:#222222;
+    border:0.5vw solid #f5b500;
+    animation:id9 15s 1;
+}
+.anime-menu{
+    position:fixed;
+    top:0;
+    height:auto;
+    width:100%;
+    z-index:500;
+}
+.anime-menu:hover {transition: all .3s 0s;}
+.anime-menu:hover nav{
+    transition: all .3s 0s;
+    margin-top:0em;
+}
+.din{
+    font-size:15vw;
+    position:absolute;
+    font-family:Trebuchet MS;
+    color:rgba(255,255,255,.1);
+    z-index:-50;
+    margin:-5vw;
+    text-shadow:50vw 35vw rgba(100, 100, 100,.1);
+}
+.insc{
+    text-decoration: none;
+    margin-top: 1vw;
+    margin-right: 6vw;
+    margin-left: -2.3vw;
+    padding: 1vw 1.5vw;
+    width: 14vw;
+    height: 3vw;
+    transition: all .3s 0s;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-family: Iceland;
+    background: rgb(40,40,40);
+    color: rgb(255,255,255);
+    border: 0.1vw solid #f5b500;
+}
+.insc:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+    color:rgb(40,40,40);
+}
+.pdf{
+    
+}
+nav{
+    position:fixed;
+    top:0;
+    background:rgb(30,30,30);
+    height:auto;
+    width:100%;
+    opacity:0.9;
+    margin-top:-4vw;
+    transition: all .3s 0s;
+}
+
+.barre{
+    top:0; 
+    width:2vw;
+    transition: all .3s 0s;
+}
+.anime-menu:hover .barre{
+    transition: all .3s 0s;
+    opacity:0;
+}
+ul.menu{
+    display: table;
+    margin:0 auto 0 0;
+	padding:0;
+	width:40vw;
+}
+ul.menu li.menu{
+    display: table-cell;
+    text-decoration:none;
+    list-style:none;
+}
+ul.menu li.menu a{
+    font-family: Delimax;
+	font-size:1vw;
+	margin-top:0em;
+	padding:2em;
+	display: block;
+	position: relative;
+	text-align: center; 
+	text-decoration: none;
+	transition: padding .3s;
+	transition: all .3s .1s;
+	transition: padding .3s, background .3s;
+	padding: 1px 1px 1px 1px;
+    color: rgb(255,255,255);
+	margin:0% 0% 0% 0%;
+	border-radius: 0px;
+}
+p.d{
+    font-family: sans-serif;
+	font-size:1vw;   
+}
+ul.menu li.menu a:hover, 
+ul.menu li.menu a:focus{
+	transition: all .3s 0s;
+	padding: 1px 1px 1px 1px;
+	color: rgb(30,30,30);
+    background:#f5b500;
+}
+.formul{
+    margin-top:4vw;
+    border-top:0.1vw solid rgb(50, 50, 50);
+    border-bottom:0.1vw solid rgb(50, 50, 50);
+    height:37vw;
+    width:95%;
+}
+.contact{
+    display:inline-block;
+    vertical-align: top;
+    height:auto;
+    width:45%;
+    margin-top:3vw;
+    margin-right:5vw;
+}
+.titre_contact{
+    font-size:1.58vw;
+    color:#f5b500;
+    font-family:Trebuchet MS;
+    text-align:left;
+    margin:1vw;
+}
+#contactC{
+    font-size:0.8vw;
+    padding:1vw;
+    width:18.1vw;
+    height:2vw;
+    background:rgb(50, 50, 50);
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);
+    border:0.1vw solid rgb(40,40,40);
+}
+#contactC2{
+    resize:none;
+    font-size:0.8vw;
+    font-family:Trebuchet MS;
+    padding:1vw;
+    width:38.5vw;
+    height:8vw;
+    background:rgb(50,50,50);
+    color:rgba(255,255,255,.5);
+    border:0.1vw solid rgb(40,40,40);
+}
+#text_pdf{
+    font-size:1.1vw;
+    text-align:left;
+    font-family:Trebuchet MS;
+    padding:0vw;
+    width:40.6vw;
+    height:auto;
+    margin:0;
+    color:#f5b500;
+}
+#contactC3{
+    font-size:0.8vw;
+    font-family:Trebuchet MS;
+    padding:0vw;
+    width:40.6vw;
+    height:4vw;
+    background:rgb(50,50,50);
+    color:rgba(255,255,255,.3);
+    border:0.1vw solid rgb(40,40,40);
+}
+.conta{
+    margin-top:1vw;
+    width:11vw;
+    height:3vw;
+    transition: all .3s 0s;
+    cursor:pointer;
+    font-size:1.5vw;
+    font-family:Iceland;
+    background:rgb(40,40,40);
+    color:rgb(255,255,255);
+    border:0.1vw solid #f5b500;
+}
+.conta:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+    color:rgb(40,40,40);
+}
+.infomation{
+    margin-top:10vw;
+    display:inline-block;
+    height:auto;
+    width:43vw;
+}
+.coord{
+    display:inline-block;
+    padding:1vw;
+    font-family:Trebuchet MS;
+    color:rgba(255,255,255,.8);
+    font-size:1.4vw;
+    width:18vw;
+    text-align:left;
+    border-left:0.1vw solid rgba(80,80,80,.5);
+}
+#titreS{
+    border:1px solid rgb(255,255,255);
+    margin-top:2vw;
+    font-size:1.5vw;
+    height:auto;
+    width:13vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);   
+}
+footer{
+    background:rgb(40,40,40);
+    height:auto;
+    width:100%; 
+    padding-bottom:1vw;
+}
+iframe{
+    height:23vw;
+    width:100%;
+}
+.sending_message{
+    font-family: Helvetica;
+    font-size: 18px;
+}

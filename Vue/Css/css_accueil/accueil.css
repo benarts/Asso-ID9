@@ -1,0 +1,863 @@
+body{
+    margin:0;
+}
+header{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.7), 
+        rgba(50, 50, 50, 0.7)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_demande.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    text-align:center;
+    height:49vw;
+    width:auto;  
+}
+.titre_so{
+    padding-top:20vw;
+    height:20vw;
+}
+#titre{
+    display:inline-block;
+    margin:0;
+    font-size:7vw;
+    height:auto;
+    width:45vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);  
+    animation:body 10s 1; 
+}
+@keyframes body{
+	0% {
+        width:0vw;
+        opacity:0;
+    }
+    55%{
+        width:0vw;
+        opacity:0;
+    }
+	85%{
+        opacity:0;
+    }
+}
+#titre2{
+    display:inline-block;
+    border-left:5px solid rgb(30,30,30);
+    margin:0;
+    font-size:7vw;
+    height:auto;
+    width:auto;
+    font-family:Trebuchet MS;
+    color: rgb(255,255,255);
+    animation:body2 5s 1;
+}
+@keyframes body2{
+	0% {
+        border:5px solid rgb(255,255,255);
+    }
+	55%{
+        border:5px solid rgb(255,255,255);
+        font-size:10vw;
+    }
+    85%{
+        border:5px solid rgb(255,255,255);
+    }
+    100%{
+    }
+}
+#titre3{
+    margin:0;
+    font-size:1.5vw;
+    margin-top:-1.5vw;
+    margin-left:32.9vw;
+    margin-right:auto;
+    height:auto;
+    width:45vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);
+    animation:body3 13s 1;
+}
+@keyframes body3{
+	0% {
+        margin-top:-5vw;
+        opacity:0; 
+    }
+    85%{
+        opacity:0;
+    }
+    100%{
+    }
+}
+.icon_id9{
+    position:absolute;
+    width:4vw;
+    height:4vw;
+    object-fit:cover;
+    margin-left:-1vw;
+    margin-top:5vw;
+    border-radius:10vw;
+    opacity:.7;
+    background:#222222;
+    border:0.2vw solid white;
+    animation:id9 15s 1;
+}
+@keyframes id9{
+	0% {
+        opacity:0; 
+    }
+    85%{
+        opacity:0;
+    }
+    100%{
+    }
+}
+#descendre{
+    font-family:Berlin Sans FB2;
+    background-color:transparent;
+    border:0;
+    font-size:4vw;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+    margin-top:13vw;
+}
+#descendre a{
+    text-decoration:none;
+    list-style:none;
+    color:rgba(250,250,250, 0.2);
+    transition: all .3s 0s;
+}
+#descendre:hover a{
+    transition: all .3s 0s;
+	color:#f5b500;
+}
+
+#descendre2{
+    font-family:Berlin Sans FB2;
+    background-color:transparent;
+    border:0;
+    font-size:4vw;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+    margin-top:-1vw;
+}
+#descendre2 a{
+    text-decoration:none;
+    list-style:none;
+    color:rgba(0,0,0, 0.2);
+    transition: all .3s 0s;
+}
+#descendre2:hover a{
+    transition: all .3s 0s;
+	color:#f5b500;
+}
+
+.anime-menu{
+    position:fixed;
+    top:0;
+    height:auto;
+    width:100%;
+    z-index:500;
+}
+.anime-menu:hover {transition: all .3s 0s;}
+.anime-menu:hover nav{
+    transition: all .3s 0s;
+    margin-top:0em;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    background:rgb(30,30,30);
+    height:auto;
+    width:100%;
+    opacity:0.9;
+    margin-top:-4vw;
+    transition: all .3s 0s;
+}
+
+.barre{
+    top:0; 
+    width:2vw;
+    transition: all .3s 0s;
+}
+.anime-menu:hover .barre{
+    transition: all .3s 0s;
+    opacity:0;
+}
+ul.menu{
+    display: table;
+    margin:0 auto 0 0;
+	padding:0;
+	width:40vw;
+}
+ul.menu li.menu{
+    display: table-cell;
+    text-decoration:none;
+    list-style:none;
+}
+ul.menu li.menu a{
+    font-family: Delimax;
+	font-size:1vw;
+	margin-top:0em;
+	padding:2em;
+	display: block;
+	position: relative;
+	text-align: center; 
+	text-decoration: none;
+	transition: padding .3s;
+	transition: all .3s .1s;
+	transition: padding .3s, background .3s;
+	padding: 1px 1px 1px 1px;
+    color: rgb(255,255,255);
+	margin:0% 0% 0% 0%;
+	border-radius: 0px;
+}
+p.d{
+    font-family: sans-serif;
+	font-size:1vw;   
+}
+ul.menu li.menu a:hover, 
+ul.menu li.menu a:focus{
+	transition: all .3s 0s;
+	padding: 1px 1px 1px 1px;
+	color: rgb(30,30,30);
+    background:#f5b500;
+}
+#contnaire_info{
+ background:rgb(255,255,255);
+}
+#contnaire_section1{
+    background:rgb(30,30,30);
+    height:41vw;
+    width:67vw;
+    display:inline-block;
+}
+.info_diap2{
+    position:absolute;
+    width:20vw;
+    height:41vw;
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.5), 
+        rgba(20, 20, 20, 0.5)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_fond.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index:100;
+    border-right:0.1vw solid #f5b500;
+}
+.projet{
+    text-align:center;
+    margin-top:7vw;
+    width:15vw;
+    font-family:Trebuchet MS;
+    font-size:2vw;
+    color:#f5b500;
+    border-bottom:0.1vw solid #f5b500;
+}
+.present_projet{
+    margin-top:4vw;
+    margin-bottom:3vw;
+    padding:1vw;
+    font-family:Trebuchet MS;
+    font-size:1.5vw;
+    color:rgba(255,255,255, 0.9);  
+}
+
+.info_diap{
+    position:absolute;
+    width:67vw;
+    height:41vw;
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.2), 
+        rgba(50, 50, 50, 0.5)
+    );
+    z-index:50;
+}
+.envide{
+    font-family:Trebuchet MS;
+    font-size:5vw;
+    width:45vw;
+    height:auto;
+    text-shadow:0.01vw 0.1vw #f5b500;
+    color:rgb(255,255,255); 
+    position: absolute;
+    top: 40%; left: 65%;
+    transform: translate(-50%, -50%);
+}
+.date_forma{
+    font-family:Trebuchet MS;
+    background:rgb(30,30,30);
+    font-size:1.5vw;
+    width:45vw;
+    height:auto;
+    color:#f5b500;
+    position: absolute;
+    top: 38%; left: 64%;
+    transform: translate(-50%, -50%);
+}
+.forme{
+    font-family:Trebuchet MS;
+    background:rgb(30,30,30);
+    font-size:1.5vw;
+    width:5vw;
+    height:5vw;
+    color:#f5b500;
+    position: absolute;
+    border:0.1vw solid #f5b500;
+    top: 60%; left: 59%;
+    transform: rotate(45deg);
+}
+#statut{
+   transform: rotate(-45deg); 
+}
+.img{
+    object-fit:cover;
+	width:67vw;
+	height:41vw;
+	border:0px solid rgb(30,30,30); 
+	border-radius:0px 0px 0px 0px;
+    animation: slides 3s 1; 
+}
+@keyframes slides{
+	0% {
+        opacity:0;
+    }
+    55%{
+        opacity:0;
+    }
+	85%{
+    }
+}
+#contnaire_section2{
+    display:inline-block;
+    width:30vw;
+}
+.card {
+	position: relative;
+	overflow: hidden;
+    margin:1vw 1vw 0vw auto;
+    background:rgb(30,30,30);
+    height:20vw;
+    width:30vw; 
+}
+.card img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+    transition: all 0.7s .1s;
+}
+.card:hover .card-img{
+    transition: all 0.7s 0s;
+	transform: scale(1.2);
+    filter:blur(2px);
+}
+
+.titreS{
+    margin:auto;
+    margin-top:4em;
+    border:4px solid rgb(255,255,255);
+    width:20vw;
+	height:auto;
+    font-family:Trebuchet MS;
+    font-size:1.4vw;
+}
+.card:hover > .titreS {
+	animation: up-titre 0.5s forwards;
+}
+.texte{
+	position: absolute;
+    text-align:center;
+    color:rgb(255,255,255);
+	width:100%;
+	height:100%;
+	transform: rotate(0deg);
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.3), 
+        rgba(0, 0, 0, 0.6)
+    );
+	top:0;
+    left:auto;
+    right:auto;
+	z-index: 2;
+}
+
+.card-bottom {
+	position: absolute;
+	background-color: rgb(30,30,30);
+    border-top:0.5vw solid #f5b500;
+	width: 50vw;
+	height: 13vw;
+	transform: rotate(-10deg);
+	bottom: -999px;
+	z-index: 2;
+    opacity:0.8;
+    transition: all 2s 0s;
+}
+.card a:hover > .card-bottom {
+	transition: all 0.9s 0s;
+    bottom: -100px;
+}
+
+.card-top {
+	position: absolute;
+	background-color: rgb(30,30,30);
+    border-bottom:0.5vw solid #f5b500;
+	width: 50vw;
+	height: 10vw;
+	transform: rotate(-25deg);
+	top:-9vw;
+	left: -5vw;
+	z-index: 2;
+    opacity:0.8;
+    transition: all 2s 0s;
+}
+
+@keyframes up-titre {
+	from {top: -999px;}
+	to {top: -100px;}
+}
+
+@keyframes slide-down-card {
+	from {top: -999px;}
+	to {top: -100px;}
+}
+
+.card-text {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 260px;
+	color: white;
+    text-align:right; 
+	opacity: 0;
+	z-index: 3;
+    font-family:Trebuchet MS;
+}
+
+.card-text h3, .card-text p {
+	margin: 0;
+}
+
+@keyframes fade-in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.card a:hover > .card-text {
+	animation: fade-in 2s forwards;
+}
+
+
+.info{
+    margin:1vw 1vw 0vw auto;
+    background:rgb(30,30,30);
+    height:20vw;
+    width:30vw;  
+}
+.autre_info{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.8), 
+        rgba(50, 50, 50, 0.8)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_autre_info.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    text-align:center;
+    margin-top:0vw;
+    height:30vw;
+    width:auto;  
+}
+.result{
+    display:inline-block;
+    width:30%;
+    height:30vw;
+}
+.result_general{
+    display:inline-block;
+    width:45%;
+    height:30vw;
+}
+.result2{
+    margin:0vw;
+}
+.icon_Fem2{
+    padding:1vw;
+    height:13vw;
+    border-radius:1vw;
+}
+.nb2{
+    margin:-2vw;
+    font-family:Berlin Sans FB2;
+    font-size:10vw;
+    color:rgb(255,255,255);
+    display:inline-flex;
+}
+#general_result{
+    margin:0;
+}
+#nbF2{
+    margin:0vw;
+    font-family:Berlin Sans FB2;
+    font-size:2vw;
+    color:rgb(255,255,255);
+}
+.icon_Fem{
+    padding:0.5vw;
+    height:5vw;
+    border-radius:10vw;
+    display:inline-block;
+}
+#info_Fem{
+    display:inline-block;
+    width:10vw;
+}
+#score{
+    margin:1vw;
+    font-family:Berlin Sans FB2;
+    font-size:5vw;
+    color:rgb(255,255,255);
+}
+#nbF{
+    margin:0vw;
+    font-family:Berlin Sans FB2;
+    font-size:1vw;
+    color:rgb(255,255,255);
+}
+.savoir{
+    position:absolute;
+    background:rgba(0,0,0,.6);
+    right:0;
+    width:20%;
+    height:30vw;
+    border-left:0.1vw solid #f5b500;
+}
+.resul{
+    text-align:center;
+    margin-top:4vw;
+    width:15vw;
+    font-family:Trebuchet MS;
+    font-size:2vw;
+    color:#f5b500;
+    border-bottom:0.1vw solid #f5b500;
+}
+.evol{
+    margin-top:4vw;
+    margin-bottom:3vw;
+    padding:1vw;
+    font-family:Trebuchet MS;
+    font-size:1.5vw;
+    color:rgba(255,255,255,.9); 
+}
+
+.resuPlus a{
+    color:rgb(255,255,255);
+    text-decoration:none;
+    
+}
+.resuPlus:hover a{transition: all .3s 0s; color:#222;}
+.resuPlus:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+}
+.resuPlus{
+    transition: all .3s 0s;
+    cursor:pointer;
+    margin:0vw;
+    font-size:1.5vw;
+    font-family:Iceland;
+    background:rgb(30,30,30);
+    border:0.1vw solid #f5b500;
+    padding:0.4vw;
+}
+#monter{
+    z-index:400;
+    font-family:Berlin Sans FB2;
+    background-color:transparent;
+    border:0;
+    font-size:4vw;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+#monter a{
+    text-decoration:none;
+    list-style:none;
+    color:rgba(120,120,120,0.5);
+    transition: all .3s 0s;
+}
+#monter:hover a{
+    transition: all .3s 0s;
+	color:#f5b500;
+}
+.contnaire_box{
+    background:rgb(30,30,30);
+}
+section.present{
+    text-align:center;
+    background: linear-gradient(
+        rgba(250, 250, 250, 0.9), 
+        rgba(250, 250, 250, 0.9)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_section_presente.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:0vw 0vw 20vw 0vw;
+    height:30vw;
+    width:auto;  
+    box-shadow:0vw 1vw 0vw 0vw #f5b500;
+}
+.Ac{
+    text-align:left;
+    margin:0;
+    background:rgba(30,30,30,.1);
+    font-family:Trebuchet MS;
+    text-shadow:20px 20px rgba(255,255,255,.9);
+    color:rgba(30,30,30,.9); 
+    font-size:4vw; 
+}
+.viser{
+    font-family:Trebuchet MS;
+    color: rgba(30,30,30,.6); 
+    font-size:1.7vw; 
+    height:auto;
+    width:70vw; 
+    margin-top: 12%; margin-left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.icon_guil1{
+    position:absolute;
+    height:auto;
+    width:7vw; 
+    margin-top:-10vw; 
+    right:7vw;
+}
+.icon_guil{
+    position:absolute;
+    height:auto;
+    width:7vw; 
+    margin-top:4vw; 
+    left:7vw;
+    transform: rotate(180deg); 
+}
+section.pr{
+    text-align:center;
+    height:40vw;
+    width:auto;
+}
+.at{
+    font-size:10vw;
+    position:absolute;
+    font-family:Trebuchet MS;
+    color:rgba(255,255,255,.1);
+    z-index:0;
+    margin:-3.5vw;
+    text-shadow:50vw 29vw rgba(100, 100, 100,.1);
+}
+.filtre_diapo{
+    background: linear-gradient(
+        rgba(30, 30, 30, 0.1), 
+        rgba(30, 30, 0, 0.2)
+    );
+    position:absolute;
+    height:27vw;
+    width:40vw;
+}
+.icon_atelier2{
+    object-fit:cover;
+    height:27vw;
+    width:40vw; 
+}
+.atelier_box1{
+    display:inline-block;
+    text-align:center;
+    background:rgba(90,90,90,.9);
+    margin:0;
+    margin-top:3vw;
+    height:27vw;
+    width:40vw;
+    position: relative;
+	vertical-align: top;
+    box-shadow:1vw 0.1vw 0vw 0vw #f5b500;
+}
+
+.atelier{
+    margin:1.5vw 0vw 0vw 0vw;
+    font-family:Trebuchet MS;
+    font-size:2vw;
+    color:#f5b500;
+    border-bottom:0.5vw solid #f5b500;
+}
+.atelier_box2{
+    display:inline-block;
+    text-align:center;
+    border-bottom:0.5vw solid #f5b500;
+    margin:0;
+    margin-left:4vw;
+    height:auto;
+    width:40vw;
+    position: relative;
+	vertical-align: top;
+}
+.icon_atelier{
+    height:7vw;
+    width:12vw;
+    padding:0.5vw;
+    object-fit:cover;
+    transition: all .4s 0s;
+    cursor:pointer;
+}
+.icon_atelier:hover{
+	transition: all .4s 0s;
+	padding: .1vw .1vw .1vw .1vw;
+	background:#f5b500;
+}
+.ens{
+    background: linear-gradient(
+        rgba(50, 50, 50, 0.8), 
+        rgba(50, 50, 50, 0.8)
+    ), url('../../Ressource/Image/Img/abc_id9_hulot_reunion.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    border-radius:0vw 0vw 0vw 10vw;
+    height:20vw;
+    width:100%;
+    box-shadow:-2vw 0vw 0vw 0vw #f5b500;
+}
+.ensavoir a{
+    color:rgb(255,255,255);
+    text-decoration:none;
+    
+}
+.ensavoir:hover a{transition: all .3s 0s; color:rgb(30,30,30);}
+.ensavoir:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+}
+.ensavoir{
+    transition: all .3s 0s;
+    cursor:pointer;
+    margin:7vw;
+    font-size:2vw;
+    font-family:Iceland;
+    background:rgb(30,30,30);
+    border:0.1vw solid #f5b500;
+    padding:1vw;
+}
+
+footer{
+    background:rgb(30,30,30);
+    height:auto;
+    width:100%; 
+    padding-bottom:1vw;
+}
+.icon_part{
+    width:4.5vw;
+    margin-top:2vw;
+    opacity:0.5;
+    transition: all .3s 0s;
+    cursor:pointer;
+}
+.icon_part:hover{
+    transition: all .3s 0s;
+	opacity:1;
+}
+.formul{
+    margin-top:4vw;
+    border-top:0.1vw solid rgb(50,50,50);
+    border-bottom:0.1vw solid rgb(50,50,50);
+    height:auto;
+    width:95%;
+}
+.contact{
+    display:inline-block;
+    vertical-align: top;
+    height:auto;
+    width:45%;
+    margin-top:3vw;
+    margin-right:5vw;
+}
+.titre_contact{
+    font-size:1.58vw;
+    color:#f5b500;
+    font-family:Trebuchet MS;
+    text-align:left;
+    margin:1vw;
+}
+#contactC{
+    font-size:0.8vw;
+    padding:1vw;
+    width:18.1vw;
+    height:2vw;
+    background:rgb(50,50,50);
+    font-family:Trebuchet MS;
+    color:rgba(255,255,255,.5);
+    border:0.1vw solid rgb(40,40,40);
+}
+#contactC2{
+    resize:none;
+    font-size:0.8vw;
+    font-family:Trebuchet MS;
+    padding:1vw;
+    width:38.5vw;
+    height:8vw;
+    background:rgb(50,50,50);
+    color:rgba(255,255,255,.5);
+    border:0.1vw solid rgb(40,40,40);
+}
+.conta{
+    margin-top:1vw;
+    width:auto;
+    height:3vw;
+    transition: all .3s 0s;
+    cursor:pointer;
+    font-size:1.5vw;
+    font-family:Iceland;
+    background:rgb(40,40,40);
+    color:rgb(255,255,255);
+    border:0.1vw solid #f5b500;
+}
+.conta:hover{
+    transition: all .3s 0s;
+	background:#f5b500;
+    color:rgb(40,40,40);
+}
+.infomation{
+    margin-top:10vw;
+    display:inline-block;
+    height:auto;
+    width:43vw;
+}
+.coord{
+    display:inline-block;
+    padding:1vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);
+    font-size:1.4vw;
+    width:18vw;
+    text-align:left;
+    border-left:0.1vw solid rgba(200,200,200,.2);
+}
+#titreS{
+    border:1px solid #fff;
+    margin-top:2vw;
+    font-size:1.5vw;
+    height:auto;
+    width:13vw;
+    font-family:Trebuchet MS;
+    color:rgb(255,255,255);  
+}
+iframe{
+    height:23vw;
+    width:100%;
+}
+.sending_message{
+    font-family: Helvetica;
+    font-size: 18px;
+}
